@@ -14,28 +14,6 @@
 | **Assessment**    | Mid-Semester Examination         |
 | **Software Used** | Microsoft Power BI Desktop       |
 
----
-
-## Table of Contents
-
-1. *Student Information*
-2. *Project Overview*
-3. *Dataset Information*
-4. *Dataset Files Used*
-5. *Dataset Schema*
-6. *Final Analytical Dataset*
-7. *Section 1 – Power Query Data Preparation*
-8. *Output of the Power Query Preparation*
-9. *Section 2 – Dashboard Development*
-10. *Section 3 – Dashboard Interactivity & Business Insights*
-11. *Folder Structure*
-12. *Screenshots Included*
-13. *Software Used*
-14. *Limitations*
-15. *Reflection & Lessons Learned*
-16. *Academic Integrity Statement*
-17. *License*
-18. *Collaboration*
 
 ---
 ## Repository Structure
@@ -588,35 +566,24 @@ Improve delivery turnaround times for slower shipments to further increase custo
 
 ---
 
-# Folder Structure
-
-```text
-DSA3050A_MidSem_HanaGashaw_670555
-│
-├── Dataset
-│
-├── PBIX
-│
-├── Screenshots
-│
-├── README.md
-│
-└── Insights.pdf
-```
-
----
 
 # Screenshots Included
 
-The submission contains screenshots demonstrating the complete project workflow.
 
-* Raw Imported Dataset
-* Power Query Editor
-* Applied Steps
-* Column Profiling
-* Final Cleaned Dataset
-* Advanced Power Query Tasks
-* Dashboard Pages
+| Category                                      | Screenshots Included                                                                                                                                 |
+| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Raw Datasets**                              | Customers, Orders, Order Items, Order Payments, Order Reviews, Products, Sellers, Geolocation, Product Category Translation                          |
+| **Power Query Editor**                        | Power Query Editor interface                                                                                                                         |
+| **Applied Steps Pane (Multi-table)**          | Applied Steps Pane for Basic Data Cleaning, Intermediate Transformations, and Advanced Power Query across multiple tables                                 |
+| **Question 1 – Basic Data Cleaning**          | Rename Columns, Correct Data Types, Remove Duplicates, Remove Blank Rows, Trim & Clean Text, Replace Inconsistent Values, Remove Unnecessary Columns |
+| **Question 1 – Intermediate Transformations** | Split Date & Time, Merge Columns, Custom Column, Conditional Column, Extract Year/Month/Quarter/Day, Filter Rows, Sort Data, Add Index Column        |
+| **Question 1 – Advanced Power Query**         | Merge Queries, Create Date Table, Reference Query, Group By, Column Profiling                                                                        |
+| **Column Profiling**                          | Final Analytical Table Profile, Column Quality & Distribution                                                                                        |
+| **Final Cleaned Dataset**                     | Final Analytical Table, Final Dataset in Use                                                                                                         |
+| **Dashboard Overview**                        | Sales & Revenue Overview, Customer & Logistics Dashboard Pages                                                                                       |
+| **Question 2 – Dashboard Development**        | KPI Cards, Clustered Bar Chart, Stacked Bar Chart, Column Chart, Line Chart, Pie Chart, Table, Matrix, Filled Map, Gauge                             |
+| **Question 3 – Dashboard Interactivity**      | Slicers (Page 1 & Page 2), Cross-Filtering, Drill-Down                                                                                               |
+
 
 ---
 
@@ -628,10 +595,7 @@ The submission contains screenshots demonstrating the complete project workflow.
 
 # Limitations
 
-* The analysis is based solely on the publicly available Olist dataset and reflects historical transactions.
-* Some product attributes contained missing values that may affect certain product-level analyses.
-* Geolocation information was not incorporated into the final analytical model to maintain project scope and improve performance.
-* Findings represent the available dataset and should not be generalized beyond the covered period.
+* Geolocation information was not incorporated into the final analytical model to maintain project scope and improve performance on 8GB RAM since it contains high number of rows.This forced the project to use state and city for geographic analysis than exact cooerdinates.
 
 ---
 
@@ -661,7 +625,4 @@ This project is released under the **MIT License**.
 
 Contributions, suggestions, and constructive feedback are welcome.
 
-If you have ideas for improving the dashboard, enhancing the analytical model, or extending the business insights, feel free to fork the project or open a pull request.
-
-Thank you for taking the time to review this project.
 
