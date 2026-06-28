@@ -130,13 +130,27 @@ The imported datasets underwent extensive cleaning and transformation in Power Q
 
 ## A. Basic Data Cleaning
 
-* **Renamed unclear column names:** *Example:* Renamed **Column 2** to **English_Name** in the **Product Category Translation** table.
-* **Corrected data types:** *Example:* Changed **Zip Code** from **Whole Number** to **Text** in the **Geolocation** table.
-* **Removed duplicate records where appropriate:** *Example:* Removed duplicate records using **customer_id** in the **Customers** table.
-* **Removed blank rows:** *Example:* Removed blank rows from the **Order Reviews** table.
-* **Trimmed and cleaned text columns:** *Example:* Applied **Trim** and **Clean** transformations to the **customer_city** column in the **Customers** table.
-* **Replaced inconsistent values:** *Example:* Standardized inconsistent **payment_type** values in the **Order Payments** table.
-* **Removed unnecessary columns:** *Example:* Removed product dimension columns such as **product_length_cm** and **product_height_cm** from the **Products** table as they were not required for the intended analysis.
+* **Renamed unclear column names:**
+
+  *Example:* Renamed **Column 2** to **English_Name** in the **Product Category Translation** table.
+* **Corrected data types:**
+
+  *Example:* Changed **Zip Code** from **Whole Number** to **Text** in the **Geolocation** table.
+* **Removed duplicate records where appropriate:**
+
+  *Example:* Removed duplicate records using **customer_id** in the **Customers** table.
+* **Removed blank rows:**
+
+  *Example:* Removed blank rows from the **Order Reviews** table.
+* **Trimmed and cleaned text columns:**
+
+   *Example:* Applied **Trim** and **Clean** transformations to the **customer_city** column in the **Customers** table.
+* **Replaced inconsistent values:**
+
+  *Example:* Standardized inconsistent **payment_type** values in the **Order Payments** table.
+* **Removed unnecessary columns:**
+
+  *Example:* Removed product dimension columns such as **product_length_cm** and **product_height_cm** from the **Products** table as they were not required for the intended analysis.
 
 ---
 
@@ -145,26 +159,98 @@ The imported datasets underwent extensive cleaning and transformation in Power Q
 * **Split date and time columns:**
 
   *Example:* Split **purchase_timestamp** into separate **Purchase Date** and **Purchase Time** columns.
-* **Merged two or more columns:** *Example:* Combined **seller_city** and **seller_state** into a single **Seller Location** column in the **Sellers** table.
-* **Created custom columns:** *Example:* Created a **Delivery Days** column by calculating the difference between the purchase and delivery dates.
-* **Created conditional columns:** *Example:* Created a **Delivery Speed** column to categorize deliveries as *Fast*, *Standard*, or *Slow*.
-* **Extracted Year, Month, Quarter, and Day:** *Example:* Extracted **Year**, **Month**, **Quarter**, and **Day** from the **Purchase Date** column.
-* **Applied filtering using multiple conditions:** *Example:* Filtered records to include **Delivered** orders with **Delivery Days < 30**.
-* **Sorted data meaningfully:** *Example:* Sorted the **Orders** table by **Purchase Date** in descending order to display the most recent orders first.
-* **Added an Index column:** *Example:* Added an **Index** column to the **Orders** table for row identification.
+* **Merged two or more columns:**
+
+  *Example:* Combined **seller_city** and **seller_state** into a single **Seller Location** column in the **Sellers** table.
+* **Created custom columns:**
+
+  *Example:* Created a **Delivery Days** column by calculating the difference between the purchase and delivery dates.
+* **Created conditional columns:**
+
+   *Example:* Created a **Delivery Speed** column to categorize deliveries as *Fast*, *Standard*, or *Slow*.
+* **Extracted Year, Month, Quarter, and Day:**
+
+   *Example:* Extracted **Year**, **Month**, **Quarter**, and **Day** from the **Purchase Date** column.
+* **Applied filtering using multiple conditions:**
+
+  *Example:* Filtered records to include **Delivered** orders with **Delivery Days < 30**.
+* **Sorted data meaningfully:**
+
+  *Example:* Sorted the **Orders** table by **Purchase Date** in descending order to display the most recent orders first.
+* **Added an Index column:**
+
+  *Example:* Added an **Index** column to the **Orders** table for row identification.
 
 
 ---
 
 ## C. Advanced Power Query Tasks
 
-* Merge Queries using common keys
-* Create a Date Table
-* Create a summarized Reference Query
-* Group By with multiple aggregations
-* Use Column Profiling to identify data quality issues
+* **Merge Queries using common keys**
+
+  **Example:**
+
+  Merged **8 relational tables** into a single **Final Analytical Table** following the sequence below:
+
+  ```text
+  Orders
+      │ order_id
+      ▼
+  Customers
+      │ customer_id
+      ▼
+  Order Items
+      │ order_id
+      ▼
+  Products
+      │ product_id
+      ▼
+  Product Category Translation
+      │ product_category_name
+      ▼
+  Order Payments
+      │ order_id
+      ▼
+  Order Reviews
+      │ order_id
+      ▼
+  Sellers
+      │ seller_id
+      ▼
+  Final Analytical Table
+  (99,441 Rows × 35 Columns)
+  ```
+
+* **Create a Date Table**
+
+  **Example:**
+
+  Created a dedicated **Date Table** from the **Purchase Date** column to support time-based analysis, filtering, and dashboard visualizations.
+
+* **Create a Summarized Reference Query**
+
+  **Example:**
+
+  Created a **Reference Query** from the **Final Analytical Table** and summarized **Total Revenue by Customer Location** for reporting purposes.
+
+* **Group By with Multiple Aggregations**
+
+  **Example:**
+
+  Aggregated **Customer Location** to calculate:
+
+  * Total Sales
+  * Number of Orders
+  * Average Delivery Days
+
+* **Use Column Profiling to Identify Data Quality Issues**
+
+  **Example:**
+
+  Applied **Column Profiling** to identify data quality issues in the **Order Reviews** table and to validate the completeness, uniqueness, and overall quality of the **Final Analytical Table** before dashboard development.
 
 ---
+
 
 # Output of the Power Query Preparation
 
