@@ -96,9 +96,7 @@ The project is organized into three main sections:
 
 
 ```text
-<div align="center">
 
-<pre>
 
 ========================================================================================
                       PROJECT PIPELINE OVERVIEW AT A GLANCE
@@ -137,9 +135,6 @@ The project is organized into three main sections:
 
 ========================================================================================
 
-</pre>
-
-</div>
 ```
 ---
 
