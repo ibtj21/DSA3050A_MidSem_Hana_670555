@@ -41,42 +41,26 @@
 ## Repository Structure
 
 ```text
-DSA3050A_MidSem_Hana_670555/
-├── Datasets
-│   ├── Schema_of_the_tables.jpeg
-│   ├── olist_customers_dataset.csv
-│   ├── olist_geolocation_dataset.csv
-│   ├── olist_order_items_dataset.csv
-│   ├── olist_order_payments_dataset.csv
-│   ├── olist_order_reviews_dataset.csv
-│   ├── olist_orders_dataset.csv
-│   ├── olist_products_dataset.csv
-│   ├── olist_sellers_dataset.csv
-│   └── product_category_name_translation.csv
+Screenshots
 │
-├── Insights
-│   └── Insights.pdf
+├── Raw_Datasets
+│   ├── Customers.png
+│   ├── Orders.png
+│   ├── Order_items.png
+│   ├── Payments.png
+│   ├── Order_review.png
+│   ├── Products.png
+│   ├── Sellers.png
+│   ├── Geolocation.png
+│   └── Category_translation.png
 │
-├── PBIX
-│   └── MidSemExam.pbix
+├── Power_Query_Editor
+│   └── Powerqueryeditor.png
 │
-├── Screenshots
+├── Applied_Steps
 │   │
-│   ├── Raw_Datasets
-│   │   ├── Customers.png
-│   │   ├── Orders.png
-│   │   ├── Order_items.png
-│   │   ├── Payments.png
-│   │   ├── Order_review.png
-│   │   ├── Products.png
-│   │   ├── Sellers.png
-│   │   ├── Geolocation.png
-│   │   └── Category_translation.png
-│   │
-│   ├── Power_Query_Editor
-│   │   └── Powerqueryeditor.png
-│   │
-│   ├── Applied_Steps
+│   ├── Applied_Steps_Pane_Multi-table
+│   │   │
 │   │   ├── A_Basic_Data_Cleaning
 │   │   │   ├── former_orders.png
 │   │   │   ├── geolocation.png
@@ -97,73 +81,69 @@ DSA3050A_MidSem_Hana_670555/
 │   │       ├── Group_by.png
 │   │       └── advanced_queries.png
 │   │
-│   ├── Question_1_Power_Query_Data_Preparation
-│   │   │
-│   │   ├── A_Basic_Data_Cleaning
-│   │   │   ├── Rename_Unclear_Columns
-│   │   │   ├── Correct_Data_Types
-│   │   │   ├── Remove_Duplicate_Rows
-│   │   │   ├── Remove_Blank_Rows
-│   │   │   ├── Trim_and_Clean_Text
-│   │   │   ├── Replace_Inconsistent_Values
-│   │   │   └── Remove_Unnecessary_Columns
-│   │   │
-│   │   ├── B_Intermediate_Transformations
-│   │   │   ├── Split_Date_and_Time
-│   │   │   ├── Merge_Columns
-│   │   │   ├── Create_Custom_Column
-│   │   │   ├── Create_Conditional_Column
-│   │   │   ├── Extract_Date_Components
-│   │   │   ├── Filter_Rows
-│   │   │   ├── Sort_Data
-│   │   │   └── Add_Index_Column
-│   │   │
-│   │   └── C_Advanced_Power_Query
-│   │       ├── Merge_Queries
-│   │       ├── Create_Date_Table
-│   │       ├── Reference_Query
-│   │       ├── Group_By
-│   │       └── Column_Profiling
-│   │
-│   ├── Column_Profile
-│   │   ├── Profile_Final_Analytical_Table.png
-│   │   └── comment_profile.png
-│   │
-│   ├── Final_Cleaned_Dataset
-│   │   ├── Final_Analytical_Fact_Table.png
-│   │   └── Final_Analytical_dataset_In_use.png
-│   │
-│   ├── Dashboard
-│   │   ├── Sales_&_Revenue_Overview.png
-│   │   └── Customer_&_Logistics.png
-│   │
-│   ├── Question_2_Power_BI_Dashboard_Development
-│   │   ├── 3_KPIs.png
-│   │   ├── Clustered_Bar_Chart.png
-│   │   ├── Column_Chart.png
-│   │   ├── Line_Chart.png
-│   │   ├── Pie_Chart.png
-│   │   ├── Table.png
-│   │   ├── Matrix.png
-│   │   ├── Map.png
-│   │   ├── Gauge.png
-│   │   └── Stacked_Bar_Chart.png
-│   │
-│   └── Question_3_Dashboard_Interactivity
-│       ├── Atleast_Three_Slicers
-│       │   ├── page_1_slicers.png
-│       │   └── Page2_slicers.png
+│   └── Question_1_Power_Query_Data_Preparation
 │       │
-│       ├── Cross_Filtering
-│       │   ├── cross-filtering.png
-│       │   └── cross-filtering2.png
+│       ├── A_Basic_Data_Cleaning
+│       │   ├── Rename_Unclear_Columns
+│       │   ├── Correct_Data_Types
+│       │   ├── Remove_Duplicate_Rows
+│       │   ├── Remove_Blank_Rows
+│       │   ├── Trim_and_Clean_Text
+│       │   ├── Replace_Inconsistent_Values
+│       │   └── Remove_Unnecessary_Columns
 │       │
-│       └── Drill_Down
-│           └── drill-down.png
+│       ├── B_Intermediate_Transformations
+│       │   ├── Split_Date_and_Time
+│       │   ├── Merge_Columns
+│       │   ├── Create_Custom_Column
+│       │   ├── Create_Conditional_Column
+│       │   ├── Extract_Date_Components
+│       │   ├── Filter_Rows
+│       │   ├── Sort_Data
+│       │   └── Add_Index_Column
+│       │
+│       └── C_Advanced_Power_Query
+│           ├── Merge_Queries
+│           ├── Create_Date_Table
+│           ├── Reference_Query
+│           ├── Group_By
+│           └── Column_Profiling
 │
-├── .gitignore
-├── LICENSE
-└── README.md
+├── Column_Profile
+│   ├── Profile_Final_Analytical_Table.png
+│   └── comment_profile.png
+│
+├── Final_Cleaned_Dataset
+│   ├── Final_Analytical_Fact_Table.png
+│   └── Final_Analytical_dataset_In_use.png
+│
+├── Dashboard
+│   ├── Sales_&_Revenue_Overview.png
+│   └── Customer_&_Logistics.png
+│
+├── Question_2_Power_BI_Dashboard_Development
+│   ├── 3_KPIs.png
+│   ├── Clustered_Bar_Chart.png
+│   ├── Column_Chart.png
+│   ├── Line_Chart.png
+│   ├── Pie_Chart.png
+│   ├── Table.png
+│   ├── Matrix.png
+│   ├── Map.png
+│   ├── Gauge.png
+│   └── Stacked_Bar_Chart.png
+│
+└── Question_3_Dashboard_Interactivity
+    ├── Atleast_Three_Slicers
+    │   ├── page_1_slicers.png
+    │   └── Page2_slicers.png
+    │
+    ├── Cross_Filtering
+    │   ├── cross-filtering.png
+    │   └── cross-filtering2.png
+    │
+    └── Drill_Down
+        └── drill-down.png
 ```
 
 ---
