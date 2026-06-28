@@ -238,7 +238,7 @@ The imported datasets underwent extensive cleaning and transformation in Power Q
 
   *Example:* Removed product dimension columns such as **product_length_cm** and **product_height_cm** from the **Products** table as they were not required for the intended analysis.
 
-### **Sample  Basic Data Cleaning Screenshoots :**
+### **Sample  Basic Data Cleaning Screenshots :**
 
 <p align="center">
   <img src="https://github.com/ibtj21/DSA3050A_MidSem_Hana_670555/blob/main/Screenshots/Applied_steps/Question%201%20Advanced%20Power%20Query%20Data%20Preparation/A.%20Basic%20Data%20Cleaning/Remove%20unnecessary%20columns/Removed_three_columns.png" width="85%">
@@ -279,7 +279,7 @@ The imported datasets underwent extensive cleaning and transformation in Power Q
 
   *Example:* Added an **Index** column to the **Orders** table for row identification.
 
-### **Sample  Intermediate Transformations Screenshoots :**
+### **Sample  Intermediate Transformations Screenshots :**
 
 <p align="center">
   <img src="https://github.com/ibtj21/DSA3050A_MidSem_Hana_670555/blob/main/Screenshots/Applied_steps/Question%201%20Advanced%20Power%20Query%20Data%20Preparation/B.%20Intermediate%20Transformations/Create%20a%20conditional%20column/Delivery_Speed.png" width="85%">
@@ -359,7 +359,7 @@ The imported datasets underwent extensive cleaning and transformation in Power Q
   Applied **Column Profiling** to identify data quality issues in the **Order Reviews** table and to validate the completeness, uniqueness, and overall quality of the **Final Analytical Table** before dashboard development.
 
 
-### **Sample Advanced Power Query Tasks Screenshoots :**
+### **Sample Advanced Power Query Tasks Screenshots :**
 
 <p align="center">
   <img src="https://github.com/ibtj21/DSA3050A_MidSem_Hana_670555/blob/main/Screenshots/Applied_steps/Question%201%20Advanced%20Power%20Query%20Data%20Preparation/C.Advanced%20Power%20Query%20Tasks/Merge%20queries%20using%20a%20common%20key/Merge%20%20orders%20%2B%20customers.png" width="85%">
@@ -447,8 +447,7 @@ The dashboard contains multiple slicers that allow users to filter the report by
 #### Page 1 Slicers
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ibtj21/DSA3050A_MidSem_Hana_670555/main/Screenshots/dashboard/Question%203Dashboard%20Interactivity/Atleast%20three%20
-    slicers/page%201%20slicers.png" width="900"/>
+  <img src="https://raw.githubusercontent.com/ibtj21/DSA3050A_MidSem_Hana_670555/main/Screenshots/dashboard/Question%203Dashboard%20Interactivity/Atleast%20three%20slicers/page%201%20slicers.png" width="900"/>
 </p>
 
 #### Page 2 Slicers
