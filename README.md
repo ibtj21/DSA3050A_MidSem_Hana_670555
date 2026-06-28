@@ -277,6 +277,17 @@ The imported datasets underwent extensive cleaning and transformation in Power Q
 
   *Example:* Added an **Index** column to the **Orders** table for row identification.
 
+## Sample Screenshoots :
+
+<p align="center">
+  <img src="https://github.com/ibtj21/DSA3050A_MidSem_Hana_670555/blob/main/Screenshots/Applied_steps/Question%201%20Advanced%20Power%20Query%20Data%20Preparation/B.%20Intermediate%20Transformations/Create%20a%20conditional%20column/Delivery_Speed.png" width="85%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/ibtj21/DSA3050A_MidSem_Hana_670555/blob/main/Screenshots/Applied_steps/Question%201%20Advanced%20Power%20Query%20Data%20Preparation/B.%20Intermediate%20Transformations/Create%20a%20custom%20column/Delivery_Day.png" width="85%">
+</p>
+
+
 
 ---
 
