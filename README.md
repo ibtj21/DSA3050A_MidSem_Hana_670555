@@ -220,6 +220,9 @@ The project is organized into three main sections:
 * **Section 2:** *Dashboard Development*
 * **Section 3:** *Dashboard Interactivity & Business Insights*
 
+
+```text
+
 ========================================================================================
 
     [ INPUT: Raw Relational Data ]         [ PROCESS: Power Query ETL Engine ]
@@ -255,6 +258,7 @@ The project is organized into three main sections:
 
 ========================================================================================
 
+```
 
 ---
 
