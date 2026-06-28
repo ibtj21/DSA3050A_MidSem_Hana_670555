@@ -309,8 +309,6 @@ The following Entity Relationship Diagram (ERD) illustrates the relationships am
 
 ---
 
-# Final Analytical Dataset
-
 # **FINAL ANALYTICAL TABLE**
 
 ## **Rows:** **99,441**
