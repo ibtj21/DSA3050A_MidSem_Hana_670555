@@ -96,6 +96,9 @@ The project is organized into three main sections:
 
 
 ```text
+<div align="center">
+
+<pre>
 
 ========================================================================================
                       PROJECT PIPELINE OVERVIEW AT A GLANCE
@@ -122,18 +125,21 @@ The project is organized into three main sections:
                                                               ▼
                                                [ OUTPUT: Business Intelligence ]
                                          ┌─────────────────────────────────────────┐
-                                         │  FINAL ANALYTICAL TABLE              │
-                                         │   └── Dimensions: 99,441 Rows x 35 Cols │
+                                         │  FINAL ANALYTICAL TABLE                │
+                                         │   └── Dimensions: 99,441 Rows × 35 Cols│
                                          │                                         │
                                          │  INTERACTIVE POWER BI DASHBOARD         │
                                          │   ├── Page 1: Sales & Revenue Overview  │
-                                         │   │    └── Key Insight: Credit Card Max │
+                                         │   │    └── Credit Card Dominates        │
                                          │   └── Page 2: Customer & Logistics      │
-                                         │        └── Key Insight: SP Hub Dominance│
+                                         │        └── São Paulo Revenue Hub        │
                                          └─────────────────────────────────────────┘
 
 ========================================================================================
-```
+
+</pre>
+
+</div>
 
 ---
 
