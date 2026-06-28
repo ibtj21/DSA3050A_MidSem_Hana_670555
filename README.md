@@ -522,7 +522,7 @@ Improve delivery turnaround times for slower shipments to further increase custo
 
 | Category                                      | Screenshots Included                                                                                                                                 |
 | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Raw Datasets**                              | Customers, Orders, Order Items, Order Payments, Order Reviews, Products, Sellers, Geolocation, Product Category Translation                          |
+| **Raw Imported Datasets**                     | Customers, Orders, Order Items, Order Payments, Order Reviews, Products, Sellers, Geolocation, Product Category Translation                          |
 | **Power Query Editor**                        | Power Query Editor interface                                                                                                                         |
 | **Applied Steps Pane (Multi-table)**          | Applied Steps Pane for Basic Data Cleaning, Intermediate Transformations, and Advanced Power Query across multiple tables                                 |
 | **Question 1 – Basic Data Cleaning**          | Rename Columns, Correct Data Types, Remove Duplicates, Remove Blank Rows, Trim & Clean Text, Replace Inconsistent Values, Remove Unnecessary Columns |
