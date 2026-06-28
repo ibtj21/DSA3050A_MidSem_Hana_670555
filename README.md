@@ -447,7 +447,8 @@ The dashboard contains multiple slicers that allow users to filter the report by
 #### Page 1 Slicers
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ibtj21/DSA3050A_MidSem_Hana_670555/main/Screenshots/dashboard/Question%203Dashboard%20Interactivity/Atleast%20three%20slicers/page%201%20slicers.png" width="900"/>
+  <img src="https://raw.githubusercontent.com/ibtj21/DSA3050A_MidSem_Hana_670555/main/Screenshots/dashboard/Question%203Dashboard%20Interactivity/Atleast%20three%20
+    slicers/page%201%20slicers.png" width="900"/>
 </p>
 
 #### Page 2 Slicers
