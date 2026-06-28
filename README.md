@@ -567,7 +567,7 @@ Improve delivery turnaround times for slower shipments to further increase custo
 ---
 
 
-# Screenshots Included
+## Screenshots Included
 
 
 | Category                                      | Screenshots Included                                                                                                                                 |
@@ -587,19 +587,20 @@ Improve delivery turnaround times for slower shipments to further increase custo
 
 ---
 
-# Software Used
+## Software Used
 
 * Microsoft Power BI Desktop
 
 ---
 
-# Limitations
+## Limitations
 
-* Geolocation information was not incorporated into the final analytical model to maintain project scope and improve performance on 8GB RAM since it contains high number of rows.This forced the project to use state and city for geographic analysis than exact cooerdinates.
+* **Geolocation information was not incorporated into the final analytical model** due to its large size (over one million records), which exceeded the project's hardware constraints on an 8 GB RAM system and could negatively impact Power BI performance. Consequently, geographic analyses were conducted using **customer state and city** rather than precise latitude and longitude coordinates.
+
 
 ---
 
-# Reflection & Lessons Learned
+## Reflection & Lessons Learned
 
 This project strengthened my understanding of the complete Business Intelligence lifecycle, from raw data preparation to interactive dashboard development. I gained practical experience in using Power Query for data cleaning, transformation, query merging, and analytical modeling.
 
@@ -607,7 +608,7 @@ Additionally, I developed a deeper appreciation for the importance of data quali
 
 ---
 
-# Academic Integrity Statement
+## Academic Integrity Statement
 
 This project was completed using a publicly available dataset obtained from Kaggle. All data preparation, transformation, visualization, dashboard development, and analysis were performed using Microsoft Power BI.
 
@@ -615,13 +616,13 @@ No AI-generated, fabricated, synthetic, or artificially created datasets were us
 
 ---
 
-# License
+## License
 
 This project is released under the **MIT License**.
 
 ---
 
-# Collaboration
+## Collaboration
 
 Contributions, suggestions, and constructive feedback are welcome.
 
