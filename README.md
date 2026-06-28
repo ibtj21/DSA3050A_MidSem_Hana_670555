@@ -313,14 +313,51 @@ The dashboard provides insights into:
 
 ---
 
-
----
-
 # Section 3 — Dashboard Interactivity & Business Insights
 
-The dashboard includes interactive slicers, filters, drill-down functionality, and cross-visual interactions, enabling users to explore the dataset across different business dimensions and make data-driven decisions.
+The dashboard was designed with interactive features that enable users to dynamically explore the dataset and uncover insights from different business perspectives. These features improve usability by allowing users to filter, drill into, and interact with visualizations for more detailed analysis.
+
+## Dashboard Interactivity Features
+
+### Interactive Slicers
+
+The dashboard contains multiple slicers that allow users to filter the report by different business dimensions such as customer location, payment method, order period, and product category.
+
+#### Page 1 Slicers
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ibtj21/DSA3050A_MidSem_Hana_670555/main/Screenshots/dashboard/Question%203Dashboard%20Interactivity/Atleast%20three%20slicers/page%201%20slicers.png" width="900"/>
+</p>
+
+#### Page 2 Slicers
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ibtj21/DSA3050A_MidSem_Hana_670555/main/Screenshots/dashboard/Question%203Dashboard%20Interactivity/Atleast%20three%20slicers/Page2%20slicers.png" width="900"/>
+</p>
 
 ---
+
+### Cross-Filtering
+
+Cross-filtering enables selections made in one visual to automatically filter and highlight related information across the remaining visuals on the report page, providing a more interactive analytical experience.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ibtj21/DSA3050A_MidSem_Hana_670555/main/Screenshots/dashboard/Question%203Dashboard%20Interactivity/Cross-filtering/cross-filtering2.png" width="900"/>
+</p>
+
+---
+
+### Drill-Down Analysis
+
+Drill-down functionality allows users to navigate from higher-level summaries to more detailed levels of information, enabling deeper exploration of trends and patterns within the data.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ibtj21/DSA3050A_MidSem_Hana_670555/main/Screenshots/dashboard/Question%203Dashboard%20Interactivity/Drill-down/drill-down.png" width="900"/>
+</p>
+
+
+---
+
 
 ## Key Business Insight 1
 
