@@ -220,6 +220,41 @@ The project is organized into three main sections:
 * **Section 2:** *Dashboard Development*
 * **Section 3:** *Dashboard Interactivity & Business Insights*
 
+========================================================================================
+
+    [ INPUT: Raw Relational Data ]         [ PROCESS: Power Query ETL Engine ]
+ ┌──────────────────────────────────┐    ┌─────────────────────────────────────────┐
+ │ 📦 Olist E-Commerce Dataset      │    │  A. BASIC DATA CLEANING                 │
+ │  • Customers      (99.4k rows)   │    │   ├── Correct Data Types (Zip to Text)  │
+ │  • Orders         (99.4k rows)   │    │   ├── Remove Duplicates & Blank Rows    │
+ │  • Order Items    (112.6k rows)  │    │   └── Trim, Clean & Standardize Text    │
+ │  • Order Payments (103.8k rows)  │    │                                         │
+ │  • Order Reviews  (99.2k rows)   │ ──>│  B. INTERMEDIATE TRANSFORMATIONS        │
+ │  • Products       (32.9k rows)   │    │   ├── Date Splitting (Y / M / Q / D)    │
+ │  • Sellers        (3.0k rows)    │    │   ├── Custom Columns (Delivery Days)    │
+ │  • Category Trans (71 rows)      │    │   └── Conditional Logic (Speed Tier)    │
+ └──────────────────────────────────┘    │                                         │
+                   │                     │  C. ADVANCED MODELLING                  │
+                   ▼                     │   ├── Star-Schema Remap (8-Way Merge)   │
+ ┌──────────────────────────────────┐    │   ├── Generated Master Date Table       │
+ │ ⚠️ Excluded for Performance:      │    │   └── Group By Summarized Reference     │
+ │  • Geolocation (1M+ Rows)        │    └─────────────────────────────────────────┘
+ └──────────────────────────────────┘                         │
+                                                              ▼
+                                               [ OUTPUT: Business Intelligence ]
+                                         ┌─────────────────────────────────────────┐
+                                         │  📊 FINAL ANALYTICAL TABLE              │
+                                         │   └── Dimensions: 99,441 Rows x 35 Cols  │
+                                         │                                         │
+                                         │  📈 INTERACTIVE POWER BI DASHBOARD       │
+                                         │   ├── Page 1: Sales & Revenue Overview  │
+                                         │   │    └── Key Insight: Credit Card Max│
+                                         │   └── Page 2: Customer & Logistics      │
+                                         │        └── Key Insight: SP Hub Dominance│
+                                         └─────────────────────────────────────────┘
+
+========================================================================================
+
 
 ---
 
