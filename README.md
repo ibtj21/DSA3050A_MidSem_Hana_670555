@@ -200,9 +200,11 @@ The following column profile confirms the structure of the final analytical data
 
 ---
 
-# **Business Scenario**
+# **Business Problem Scenario**
 
-A Business Intelligence solution was developed based on a large raw e-commerce dataset containing inconsistencies, missing values, errors, and poorly structured fields. The dataset was cleaned and transformed using **Power Query**, integrated into a consolidated analytical model, and used to develop an interactive **Power BI** dashboard that supports business analysis and informed decision-making.
+As a **Business Intelligence Analyst**, the objective was to transform a large raw e-commerce dataset into a reliable decision-support system for management. The dataset contained inconsistencies, missing values, duplicate records, and poorly structured fields spread across multiple related tables, making direct analysis difficult.
+
+To address this business problem, the data was cleaned and transformed using **Power Query**, integrated into a consolidated analytical model, and used to develop a professional **Power BI** dashboard. The resulting solution enables stakeholders to monitor business performance, explore interactive insights, and make informed decisions regarding sales, customer behavior, payment methods, logistics, and overall operational performance.
 
 ---
 
@@ -515,7 +517,7 @@ Improve delivery turnaround times for slower shipments to further increase custo
 ---
 
 
-# Screenshots Included In The Repository
+# Screenshots Included In The Repository / List of Visuals Created
 
 
 | Category                                      | Screenshots Included                                                                                                                                 |
