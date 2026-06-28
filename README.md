@@ -130,26 +130,28 @@ The imported datasets underwent extensive cleaning and transformation in Power Q
 
 ## A. Basic Data Cleaning
 
-* Renamed unclear column names
-* Corrected data types
-* Removed duplicate records where appropriate
-* Removed blank rows
-* Trimmed and cleaned text columns
-* Replaced inconsistent values
-* Removed unnecessary columns
+* **Renamed unclear column names:** *Example:* Renamed **Column 2** to **English_Name** in the **Product Category Translation** table.
+* **Corrected data types:** *Example:* Changed **Zip Code** from **Whole Number** to **Text** in the **Geolocation** table.
+* **Removed duplicate records where appropriate:** *Example:* Removed duplicate records using **customer_id** in the **Customers** table.
+* **Removed blank rows:** *Example:* Removed blank rows from the **Order Reviews** table.
+* **Trimmed and cleaned text columns:** *Example:* Applied **Trim** and **Clean** transformations to the **customer_city** column in the **Customers** table.
+* **Replaced inconsistent values:** *Example:* Standardized inconsistent **payment_type** values in the **Order Payments** table.
+* **Removed unnecessary columns:** *Example:* Removed product dimension columns such as **product_length_cm** and **product_height_cm** from the **Products** table as they were not required for the intended analysis.
 
 ---
 
 ## B. Intermediate Transformations
 
-* Split date and time columns
-* Merged multiple datasets into one analytical table
-* Created custom columns (e.g., Delivery Days)
-* Created conditional columns
-* Extracted Year, Month, Quarter, and Day
-* Applied filtering using multiple conditions
-* Sorted data meaningfully
-* Added an Index column
+* **Split date and time columns:**
+  *Example:* Split **purchase_timestamp** into separate **Purchase Date** and **Purchase Time** columns.
+* **Merged two or more columns:** *Example:* Combined **seller_city** and **seller_state** into a single **Seller Location** column in the **Sellers** table.
+* **Created custom columns:** *Example:* Created a **Delivery Days** column by calculating the difference between the purchase and delivery dates.
+* **Created conditional columns:** *Example:* Created a **Delivery Speed** column to categorize deliveries as *Fast*, *Standard*, or *Slow*.
+* **Extracted Year, Month, Quarter, and Day:** *Example:* Extracted **Year**, **Month**, **Quarter**, and **Day** from the **Purchase Date** column.
+* **Applied filtering using multiple conditions:** *Example:* Filtered records to include **Delivered** orders with **Delivery Days < 30**.
+* **Sorted data meaningfully:** *Example:* Sorted the **Orders** table by **Purchase Date** in descending order to display the most recent orders first.
+* **Added an Index column:** *Example:* Added an **Index** column to the **Orders** table for row identification.
+
 
 ---
 
