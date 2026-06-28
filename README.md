@@ -4,7 +4,7 @@
 
 ---
 
-# Student Information
+## Student Information
 
 | Item              | Details                          |
 | ----------------- | -------------------------------- |
@@ -229,7 +229,7 @@ The project is organized into three main sections:
 
     [ INPUT: Raw Relational Data ]         [ PROCESS: Power Query ETL Engine ]
  ┌──────────────────────────────────┐    ┌─────────────────────────────────────────┐
- │ 📦 Olist E-Commerce Dataset      │    │  A. BASIC DATA CLEANING                 │
+ │  Olist E-Commerce Dataset        │    │  A. BASIC DATA CLEANING                 │
  │  • Customers      (99.4k rows)   │    │   ├── Correct Data Types (Zip to Text)  │
  │  • Orders         (99.4k rows)   │    │   ├── Remove Duplicates & Blank Rows    │
  │  • Order Items    (112.6k rows)  │    │   └── Trim, Clean & Standardize Text    │
@@ -242,16 +242,16 @@ The project is organized into three main sections:
                    │                     │  C. ADVANCED MODELLING                  │
                    ▼                     │   ├── Star-Schema Remap (8-Way Merge)   │
  ┌──────────────────────────────────┐    │   ├── Generated Master Date Table       │
- │ ⚠️ Excluded for Performance:      │    │   └── Group By Summarized Reference     │
+ │  Excluded for Performance:       │    │   └── Group By Summarized Reference     │
  │  • Geolocation (1M+ Rows)        │    └─────────────────────────────────────────┘
  └──────────────────────────────────┘                         │
                                                               ▼
                                                [ OUTPUT: Business Intelligence ]
                                          ┌─────────────────────────────────────────┐
-                                         │  📊 FINAL ANALYTICAL TABLE              │
+                                         │  FINAL ANALYTICAL TABLE              │
                                          │   └── Dimensions: 99,441 Rows x 35 Cols  │
                                          │                                         │
-                                         │  📈 INTERACTIVE POWER BI DASHBOARD       │
+                                         │  INTERACTIVE POWER BI DASHBOARD       │
                                          │   ├── Page 1: Sales & Revenue Overview  │
                                          │   │    └── Key Insight: Credit Card Max│
                                          │   └── Page 2: Customer & Logistics      │
@@ -463,7 +463,7 @@ The imported datasets underwent extensive cleaning and transformation in Power Q
 ---
 
 
-# Output of the Power Query Preparation
+## *Output of the Power Query Preparation*
 
 ## Final Analytical Table
 
@@ -607,7 +607,7 @@ Improve delivery turnaround times for slower shipments to further increase custo
 ---
 
 
-## Screenshots Included
+# Screenshots Included In The Repository
 
 
 | Category                                      | Screenshots Included                                                                                                                                 |
