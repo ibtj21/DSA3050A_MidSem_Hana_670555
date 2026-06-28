@@ -16,23 +16,26 @@
 
 ---
 
-# Table of Contents
+## Table of Contents
 
-1. Project Overview
-2. Dataset Information
-3. Dataset Schema
-4. Power Query Data Preparation
-5. Output of the Data Preparation
-6. Dashboard Development
-7. Dashboard Interactivity & Business Insights
-8. Folder Structure
-9. Screenshots Included
-10. Software Used
-11. Limitations
-12. Reflection & Lessons Learned
-13. Academic Integrity Statement
-14. License
-15. Collaboration
+1. *Student Information*
+2. *Project Overview*
+3. *Dataset Information*
+4. *Dataset Files Used*
+5. *Dataset Schema*
+6. *Final Analytical Dataset*
+7. *Section 1 – Power Query Data Preparation*
+8. *Output of the Power Query Preparation*
+9. *Section 2 – Dashboard Development*
+10. *Section 3 – Dashboard Interactivity & Business Insights*
+11. *Folder Structure*
+12. *Screenshots Included*
+13. *Software Used*
+14. *Limitations*
+15. *Reflection & Lessons Learned*
+16. *Academic Integrity Statement*
+17. *License*
+18. *Collaboration*
 
 ---
 
@@ -42,9 +45,10 @@ This repository contains the complete submission for the **DSA3050A Mid-Semester
 
 The project is organized into three main sections:
 
-* **Power Query Data Preparation**
-* **Dashboard Development**
-* **Dashboard Interactivity & Business Insights**
+* **Section 1:** *Power Query Data Preparation*
+* **Section 2:** *Dashboard Development*
+* **Section 3:** *Dashboard Interactivity & Business Insights*
+
 
 ---
 
