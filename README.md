@@ -143,6 +143,7 @@ The imported datasets underwent extensive cleaning and transformation in Power Q
 ## B. Intermediate Transformations
 
 * **Split date and time columns:**
+
   *Example:* Split **purchase_timestamp** into separate **Purchase Date** and **Purchase Time** columns.
 * **Merged two or more columns:** *Example:* Combined **seller_city** and **seller_state** into a single **Seller Location** column in the **Sellers** table.
 * **Created custom columns:** *Example:* Created a **Delivery Days** column by calculating the difference between the purchase and delivery dates.
