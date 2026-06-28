@@ -116,6 +116,10 @@ The following column profile confirms the structure of the final analytical data
 
 ---
 
+## Business Scenario
+
+A Business Intelligence solution was developed based on a large raw e-commerce dataset containing inconsistencies, missing values, errors, and poorly structured fields. The dataset was cleaned and transformed using **Power Query**, integrated into a consolidated analytical model, and used to develop an interactive **Power BI** dashboard that supports business analysis and informed decision-making.
+
 ---
 
 # Section 1 — Power Query Data Preparation
