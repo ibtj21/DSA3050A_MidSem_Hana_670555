@@ -39,175 +39,49 @@ DSA3050A_MidSem_Hana_670555/
 │   └── MidSemExam.pbix
 │
 ├── Screenshots
-│   │
+│
 │   ├── Raw_Datasets
-│   │   ├── Customers.png
-│   │   ├── Orders.png
-│   │   ├── Order_items.png
-│   │   ├── Payments.png
-│   │   ├── Order_review.png
-│   │   ├── Products.png
-│   │   ├── Sellers.png
-│   │   ├── Geolocation.png
-│   │   └── Category_translation.png
-│   │
+│   │   └── Customers, Orders, Order Items, Payments, Reviews, Products, Sellers, Geolocation, Category Translation
+│
 │   ├── Power_Query_Editor
 │   │   └── Powerqueryeditor.png
-│   │
+│
 │   ├── Applied_Steps
-│   │   │
+│   │
 │   │   ├── Applied_Steps_Pane_Multi-table
-│   │   │   │
-│   │   │   ├── A_Basic_Data_Cleaning
-│   │   │   │   ├── former_orders.png
-│   │   │   │   ├── geolocation.png
-│   │   │   │   ├── customers.png
-│   │   │   │   ├── reviews.png
-│   │   │   │   ├── payments.png
-│   │   │   │   └── products.png
-│   │   │   │
-│   │   │   ├── B_Intermediate_Transformations
-│   │   │   │   ├── former_orders.png
-│   │   │   │   ├── sellers.png
-│   │   │   │   └── Filter_Analytical_Table.png
-│   │   │   │
-│   │   │   └── C_Advanced_Power_Query
-│   │   │       ├── Merge_Query.png
-│   │   │       ├── Date_table.png
-│   │   │       ├── Reference_table_summary.png
-│   │   │       ├── Group_by.png
-│   │   │       └── advanced_queries.png
+│   │   │   ├── A_Basic_Data_Cleaning (Orders, Customers, Reviews, Products, Payments, Geolocation)
+│   │   │   ├── B_Intermediate_Transformations (Orders, Sellers, Filter Analytical Table)
+│   │   │   └── C_Advanced_Power_Query (Merge Query, Date Table, Reference Query, Group By)
 │   │   │
 │   │   └── Question_1_Power_Query_Data_Preparation
-│   │       │
 │   │       ├── A_Basic_Data_Cleaning
-│   │       │   ├── Rename_Unclear_Columns
-│   │       │   │   ├── English_name.jpeg
-│   │       │   │   ├── Portugeuse_name.jpeg
-│   │       │   │   └── Renamed.jpeg
-│   │       │   │
-│   │       │   ├── Correct_Data_Types
-│   │       │   │   ├── Geolocation_zipcode_To_text.jpeg
-│   │       │   │   └── Seller_Zipcode_to_text.png
-│   │       │   │
-│   │       │   ├── Remove_Duplicate_Rows
-│   │       │   │   ├── Remove_dup_customers.jpeg
-│   │       │   │   └── Remove_dup_sellers.png
-│   │       │   │
-│   │       │   ├── Remove_Blank_Rows
-│   │       │   │   └── Remove_empty_order_review.png
-│   │       │   │
-│   │       │   ├── Trim_and_Clean_Text
-│   │       │   │   ├── RemovefromCustomerCity.jpeg
-│   │       │   │   └── Trim_customer_city.jpeg
-│   │       │   │
-│   │       │   ├── Replace_Inconsistent_Values
-│   │       │   │   ├── Replace_inconsistent_product_dimentions.png
-│   │       │   │   └── Replace_payment_method_inconsistencies.png
-│   │       │   │
-│   │       │   └── Remove_Unnecessary_Columns
-│   │       │       └── Removed_three_columns.png
+│   │       │   └── Rename Columns, Correct Data Types, Remove Duplicates, Remove Blank Rows, Trim Text, Replace Values, Remove Columns
 │   │       │
 │   │       ├── B_Intermediate_Transformations
-│   │       │   ├── Split_One_Column_Into_Multiple_Columns
-│   │       │   │   └── Split_Purchase_Date.png
-│   │       │   │
-│   │       │   ├── Merge_Two_or_More_Columns
-│   │       │   │   ├── Customer_City+State.png
-│   │       │   │   └── Seller_City+State.png
-│   │       │   │
-│   │       │   ├── Create_Custom_Column
-│   │       │   │   └── Delivery_Day.png
-│   │       │   │
-│   │       │   ├── Create_Conditional_Column
-│   │       │   │   └── Delivery_Speed.png
-│   │       │   │
-│   │       │   ├── Extract_Year_Month_Quarter_Day
-│   │       │   │   ├── Purchase_year.png
-│   │       │   │   ├── Purchase_month.png
-│   │       │   │   ├── Purchase_quarter.png
-│   │       │   │   └── Purchase_day.png
-│   │       │   │
-│   │       │   ├── Filter_Rows_Using_Multiple_Conditions
-│   │       │   │   ├── Filter_Condition_1.png
-│   │       │   │   ├── Filter_Condition_2.png
-│   │       │   │   ├── Filter_basedon_Order_status.png
-│   │       │   │   └── Filter_basedon_Delivery_Day.png
-│   │       │   │
-│   │       │   ├── Sort_Data_Meaningfully
-│   │       │   │   ├── Sort_by_paymentvalue.png
-│   │       │   │   └── Sort_by_purchasedate.png
-│   │       │   │
-│   │       │   └── Add_an_Index_Column
-│   │       │       └── Index_column.png
+│   │       │   └── Split Columns, Merge Columns, Custom Column, Conditional Column, Date Extraction, Filtering, Sorting, Index Column
 │   │       │
 │   │       └── C_Advanced_Power_Query
-│   │           ├── Merge_Queries_Using_a_Common_Key
-│   │           │   ├── Merge_orders+customers.png
-│   │           │   ├── Merge_Order_Item.png
-│   │           │   ├── Merge_Products.png
-│   │           │   ├── Merge_category_name_translation.png
-│   │           │   ├── Merge_payment.png
-│   │           │   ├── Merge_reviews_table.png
-│   │           │   └── Merge_sellers.png
-│   │           │
-│   │           ├── Create_a_Date_Table_in_Power_Query
-│   │           │   ├── Date_Table.png
-│   │           │   └── Date_Table_result.png
-│   │           │
-│   │           ├── Create_a_Summarized_Query_Using_Reference_Query
-│   │           │   ├── Reference_Table.png
-│   │           │   └── Summary_Reference_Table.png
-│   │           │
-│   │           ├── Use_Group_By_with_Multiple_Aggregations
-│   │           │   ├── sales_summary_by_location.png
-│   │           │   └── sales_summary_by_location_result.png
-│   │           │
-│   │           └── Use_Column_Profiling_to_Identify_Data_Quality_Issues
-│   │               ├── Profile_Final_Analytical_Table.png
-│   │               └── comment_profile.png
-│   │
+│   │           └── Merge Queries, Date Table, Reference Query, Group By, Column Profiling
+│
 │   ├── Column_Profile
-│   │   ├── Profile_Final_Analytical_Table.png
-│   │   └── comment_profile.png
-│   │
+│   │   └── Final Analytical Table Profile, Column Quality
+│
 │   ├── Final_Cleaned_Dataset
-│   │   ├── Final_Analytical_Fact_Table.png
-│   │   └── Final_Analytical_dataset_In_use.png
-│   │
+│   │   └── Final Analytical Fact Table, Final Dataset in Use
+│
 │   ├── Dashboard
-│   │   ├── Sales_&_Revenue_Overview.png
-│   │   └── Customer_&_Logistics.png
-│   │
+│   │   └── Sales & Revenue Overview, Customer & Logistics
+│
 │   ├── Question_2_Power_BI_Dashboard_Development
-│   │   ├── 3_KPIs.png
-│   │   ├── Clustered_Bar_Chart.png
-│   │   ├── Column_Chart.png
-│   │   ├── Line_Chart.png
-│   │   ├── Pie_Chart.png
-│   │   ├── Table.png
-│   │   ├── Matrix.png
-│   │   ├── Map.png
-│   │   ├── Gauge.png
-│   │   └── Stacked_Bar_Chart.png
-│   │
+│   │   └── KPI Cards, Clustered Bar, Stacked Bar, Column, Line, Pie, Table, Matrix, Map, Gauge
+│
 │   └── Question_3_Dashboard_Interactivity
-│       ├── Atleast_Three_Slicers
-│       │   ├── page_1_slicers.png
-│       │   └── Page2_slicers.png
-│       │
-│       ├── Cross_Filtering
-│       │   ├── cross-filtering.png
-│       │   └── cross-filtering2.png
-│       │
-│       └── Drill_Down
-│           └── drill-down.png
+│       └── Slicers, Cross Filtering, Drill Down
 │
 ├── .gitignore
 ├── LICENSE
 └── README.md
 ```
-
 ---
 
 ## Project Overview
