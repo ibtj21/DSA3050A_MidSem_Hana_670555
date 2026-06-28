@@ -264,9 +264,27 @@ This analytical table combines customer, order, payment, seller, review, and pro
 
 # Section 2 — Dashboard Development
 
-An interactive Power BI dashboard was developed to provide meaningful business insights across multiple operational and financial dimensions.
+An interactive Power BI dashboard was developed to transform the cleaned analytical dataset into meaningful business insights through effective data visualization. The dashboard was designed with a professional layout, consistent formatting, interactive navigation, and user-friendly visuals to support informed decision-making.
 
-The dashboard focuses on:
+## Dashboard Contents
+
+The dashboard includes the following visualizations:
+
+* KPI Cards
+* Bar Chart
+* Column Chart
+* Line Chart
+* Pie/Donut Chart
+* Table Visual
+* Matrix Visual
+* Filled Map
+* Tree Map
+* Ribbon Chart
+* Interactive Slicers and Filters
+
+## Analytical Focus
+
+The dashboard provides insights into:
 
 * Revenue Distribution
 * Order Volume
@@ -279,19 +297,22 @@ The dashboard focuses on:
 
 ## Dashboard Preview
 
-### Dashboard Page 1
+### Dashboard Page 1 — Sales & Revenue Overview
 
-```text
-Placeholder: dashboard_page1.png
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ibtj21/DSA3050A_MidSem_Hana_670555/main/Screenshots/dashboard/Sales%20%26%20Revenue%20Overview.png" width="1000"/>
+</p>
 
 ---
 
-### Dashboard Page 2
+### Dashboard Page 2 — Customer & Logistics
 
-```text
-Placeholder: dashboard_page2.png
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ibtj21/DSA3050A_MidSem_Hana_670555/main/Screenshots/dashboard/Customer%20%26%20Logistics%20.png" width="1000"/>
+</p>
+
+---
+
 
 ---
 
