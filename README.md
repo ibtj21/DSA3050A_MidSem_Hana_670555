@@ -236,29 +236,18 @@ The imported datasets underwent extensive cleaning and transformation in Power Q
 
   *Example:* Removed product dimension columns such as **product_length_cm** and **product_height_cm** from the **Products** table as they were not required for the intended analysis.
 
-  ## Sample Power Query Basic Data Cleaning
+## Sample Basic Power Query Data Cleaning
 
-The following screenshots illustrate selected data cleaning operations performed during the Power Query preparation stage.
+The following screenshots present examples of data cleaning operations performed during the Power Query preparation stage.
 
-<table>
-<tr>
-<td align="center" width="50%">
+<p align="center">
+  <img src="https://github.com/ibtj21/DSA3050A_MidSem_Hana_670555/blob/main/Screenshots/Applied_steps/Question%201%20Advanced%20Power%20Query%20Data%20Preparation/A.%20Basic%20Data%20Cleaning/Remove%20unnecessary%20columns/Removed_three_columns.png" width="85%">
+</p>
 
-**Removing Unnecessary Columns**
+<p align="center">
+  <img src="https://github.com/ibtj21/DSA3050A_MidSem_Hana_670555/blob/main/Screenshots/Applied_steps/Question%201%20Advanced%20Power%20Query%20Data%20Preparation/A.%20Basic%20Data%20Cleaning/Change%20data%20types%20correctly/Seller_Zipcode_to_text.png" width="85%">
+</p>
 
-<img src="https://github.com/ibtj21/DSA3050A_MidSem_Hana_670555/blob/main/Screenshots/Applied_steps/Question%201%20Advanced%20Power%20Query%20Data%20Preparation/A.%20Basic%20Data%20Cleaning/Remove%20unnecessary%20columns/Removed_three_columns.png" width="100%">
-
-</td>
-
-<td align="center" width="50%">
-
-**Correcting Data Types**
-
-<img src="https://github.com/ibtj21/DSA3050A_MidSem_Hana_670555/blob/main/Screenshots/Applied_steps/Question%201%20Advanced%20Power%20Query%20Data%20Preparation/A.%20Basic%20Data%20Cleaning/Change%20data%20types%20correctly/Seller_Zipcode_to_text.png" width="100%">
-
-</td>
-</tr>
-</table>
 
 
 ---
