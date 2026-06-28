@@ -236,9 +236,7 @@ The imported datasets underwent extensive cleaning and transformation in Power Q
 
   *Example:* Removed product dimension columns such as **product_length_cm** and **product_height_cm** from the **Products** table as they were not required for the intended analysis.
 
-## Sample Basic Power Query Data Cleaning
-
-The following screenshots present examples of data cleaning operations performed during the Power Query preparation stage.
+## Sample Screenshoots :
 
 <p align="center">
   <img src="https://github.com/ibtj21/DSA3050A_MidSem_Hana_670555/blob/main/Screenshots/Applied_steps/Question%201%20Advanced%20Power%20Query%20Data%20Preparation/A.%20Basic%20Data%20Cleaning/Remove%20unnecessary%20columns/Removed_three_columns.png" width="85%">
