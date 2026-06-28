@@ -249,11 +249,11 @@ The project is organized into three main sections:
                                                [ OUTPUT: Business Intelligence ]
                                          ┌─────────────────────────────────────────┐
                                          │  FINAL ANALYTICAL TABLE              │
-                                         │   └── Dimensions: 99,441 Rows x 35 Cols  │
+                                         │   └── Dimensions: 99,441 Rows x 35 Cols │
                                          │                                         │
-                                         │  INTERACTIVE POWER BI DASHBOARD       │
+                                         │  INTERACTIVE POWER BI DASHBOARD         │
                                          │   ├── Page 1: Sales & Revenue Overview  │
-                                         │   │    └── Key Insight: Credit Card Max│
+                                         │   │    └── Key Insight: Credit Card Max │
                                          │   └── Page 2: Customer & Logistics      │
                                          │        └── Key Insight: SP Hub Dominance│
                                          └─────────────────────────────────────────┘
