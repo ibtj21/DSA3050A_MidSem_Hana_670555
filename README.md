@@ -36,11 +36,15 @@
 
 ---
 
-# Project Overview
+## Project Overview
 
-This project demonstrates a complete Business Intelligence workflow using Microsoft Power BI. The work involved importing a real-world public dataset, performing extensive data cleaning and transformation using Power Query, integrating multiple related datasets into a single analytical model, and designing an interactive dashboard to generate actionable business insights and recommendations.
+This repository contains the complete submission for the **DSA3050A Mid-Semester Business Intelligence Examination**. The project demonstrates an end-to-end Business Intelligence workflow using Microsoft Power BI, from data preparation and transformation to interactive dashboard development and business insight generation.
 
-The project satisfies the assessment requirements by covering data preparation, transformation, visualization, dashboard design, and business analysis while following best practices in data modeling and reporting.
+The project is organized into three main sections:
+
+* **Power Query Data Preparation**
+* **Dashboard Development**
+* **Dashboard Interactivity & Business Insights**
 
 ---
 
@@ -62,29 +66,51 @@ No AI-generated, fabricated, synthetic, or manually created records were added t
 
 # Dataset Files Used
 
-The project integrates the following relational tables:
+The project integrates the following relational tables from the Brazilian E-Commerce Public Dataset by Olist.
 
-* Customers
-* Orders
-* Order Items
-* Order Payments
-* Order Reviews
-* Products
-* Sellers
-* Product Category Translation
-* Geolocation
+| Table                        |      Rows | Columns |
+| ---------------------------- | --------: | ------: |
+| Customers                    |    99,441 |       5 |
+| Orders                       |    99,441 |       8 |
+| Order Items                  |   112,650 |       7 |
+| Order Payments               |   103,886 |       5 |
+| Order Reviews                |    99,224 |       7 |
+| Products                     |    32,951 |       9 |
+| Sellers                      |     3,095 |       4 |
+| Product Category Translation |        71 |       2 |
+| Geolocation                  | 1,000,163 |       5 |
 
-These tables were linked through common keys and merged into a unified analytical dataset suitable for business intelligence reporting.
+These relational tables were connected through common keys and integrated into a unified analytical dataset to support business intelligence reporting and dashboard development.
 
 ---
 
 # Dataset Schema
 
-> **Insert Entity Relationship Diagram (ERD) / Dataset Schema Image Here**
+The following Entity Relationship Diagram (ERD) illustrates the relationships among the imported tables used throughout this project.
 
-```text
-Placeholder: dataset_schema.png
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ibtj21/DSA3050A_MidSem_Hana_670555/main/Datasets/Schema_of_the_tables.jpeg" width="900"/>
+</p>
+
+---
+
+# Final Analytical Dataset
+
+# **FINAL ANALYTICAL TABLE**
+
+## **Rows:** **99,441**
+
+## **Columns:** **35**
+
+The cleaned and transformed datasets were successfully merged into a single **Final Analytical Table** consisting of **35 columns** and **99,441 rows**. This consolidated dataset served as the primary data source for all dashboard visualizations, business analyses, and insights presented in this project.
+
+The following column profile confirms the structure of the final analytical dataset after all Power Query transformations and merge operations.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ibtj21/DSA3050A_MidSem_Hana_670555/main/Screenshots/Column%20Profile/Profile_Final_Analytical_Table.png" width="900"/>
+</p>
+
+---
 
 ---
 
